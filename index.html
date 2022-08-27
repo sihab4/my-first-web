@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Jhon Xina</title>
+        <link rel ="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/icon/jhon-xina.png" alt="logo" class="logo-img">
+                <h1 class="logo-title">Jhon Xina</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#jasa">JASA</a></li>
+                    <li><a href="mailto:rayzshyhab@gmail.com">MAIL</a></li>
+                </ul>
+            </nav>
+            <button class="button" onclick="redirInstagram()">Follow Me</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Halo, Sihab here!!</p>
+                <p class="description">Mahasiswa Amikom Yogyakarta</p>
+                <img src="assets/foto/1.jpg" alt="1"  class="img-foto">
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">Gausah di hujat, ini gue baru belajar</p>
+                <p class="description">namanya juga manusia🗿</p>
+                <div class="mt-10">
+                    <button class="button" onclick="redirWhatsapp()">Mari Kerjasama</button>
+                </div>
+            </div>
+            <div class="container" id="jasa">
+                    <div class="card">
+                        <div class="card-item">
+                            <img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+                            <p class="card-title">Belakangan ini hobi gue nonton</p>
+                            <p class="card-description">Hobi gue bisa ganti tiap 10 detik sekali</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+                            <p class="card-title">Belakangan ini hobi gue nonton</p>
+                            <p class="card-description">Hobi gue bisa ganti tiap 10 detik sekali</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icon/partner.png" alt="icon 3" class="icon"/>
+                            <p class="card-title">Belakangan ini hobi gue nonton</p>
+                            <p class="card-description">Hobi gue bisa ganti tiap 10 detik sekali</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer>
+        <p class="tiitle">&copy; Muhammad Qurais Sihab 2022</p> 
+        </footer>
+
+        <script>
+            function redirInstagram(){
+                window.location.href = "https://www.instagram.com/sihabcdefgh/"
+            }
+
+            function redirWhatsapp(){
+                window.location.href = "https://wa.me/+6281354265928"
+            }
+        </script>
+    </body>
+</html>
